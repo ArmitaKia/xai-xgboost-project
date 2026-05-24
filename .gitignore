@@ -1,0 +1,5 @@
+# Ignore .ven directory (virtual environment)
+.ven/
+
+# Ignore everything inside ciciot-dataset-partial folder
+ciciot-dataset-partial/
