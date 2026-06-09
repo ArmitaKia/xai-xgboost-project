@@ -40,3 +40,7 @@ At the end of the pipeline, the code evaluates the XGBoost model using standard 
 - **XGBoost Feature Importance:** Highlights the top overall contributing features.
 - **SHAP Summary Plots:** Shows how much each feature pushes the model’s output towards ‘Attack’ or ‘Normal’.
 - **LIME Plots:** Explains individual predictions row-by-row, proving exactly why the model made a specific choice for a single network packet.
+
+## Acknowledgments / References
+- This project's methodology is inspired by the research paper: *"Enhancing IoT Security in 6G Environment With Transparent AI: Leveraging XGBoost, SHAP and LIME"*.
+- **Dataset:** The dataset used is the [CICIoT2023](https://www.unb.ca/cic/datasets/iotdataset-2023.html) provided by the Canadian Institute for Cybersecurity (CIC).
